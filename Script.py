@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>
-🔱 JAI SHREE MAHAKAAL 🔱
+💖 𝑯𝒆𝒚 𝑺𝒘𝒆𝒆𝒕𝒉𝒆𝒂𝒓𝒕 💖
 
 👋 HELLO {},
 
