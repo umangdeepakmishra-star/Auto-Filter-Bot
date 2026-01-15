@@ -259,14 +259,16 @@ class script(object):
 
 ᴍᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>
+    CAPTION ="""<b>
+✨ 𝑯𝒆𝒚 𝑳𝒐𝒗𝒆 ✨
+
 🎬 {file_name}
 
-━━━━━━━━━━━━━━━━━━━
-👑 CINEMA HUB 👑
-━━━━━━━━━━━━━━━━━━━
-⚡ No Ads • No Noise
-🎥 Pure Cinema Experience
+━━━━━━━━━━━━━━━
+👑 𝑪𝑰𝑵𝑬𝑴𝑨 𝑯𝑼𝑩 👑
+━━━━━━━━━━━━━━━
+
+💖 𝑬𝒏𝒋𝒐𝒚 𝒌𝒂𝒓𝒐 𝒋𝒂𝒂𝒏 😘
 </b>"""
 
     IMDB_TEMPLATE_TXT = """
