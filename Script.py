@@ -69,22 +69,29 @@ class script(object):
 ├⋟ 📊 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ: <code>{}</code>
 <b>╰──────────────────────⍟</b>"""
 
-    STATUS_TXT = """<b>╭─[ ⚡ ᴅᴀᴛᴀʙᴀsᴇ ꜱᴛᴀᴛᴜꜱ ⚡ ]─⍟</b>
-│
-<b>├─[ ᴅᴀᴛᴀʙᴀsᴇ ]─⍟</b>
-├⋟ 👤 ᴜsᴇʀs ⋟ <code>{}</code>
-├⋟ 👥 ɢʀᴏᴜᴘs ⋟ <code>{}</code>
-├⋟ 💎 ᴘʀᴇᴍɪᴜᴍ ⋟ <code>{}</code>
-├⋟ 📂 ꜰɪʟᴇs ⋟ <code>{}</code>
-├⋟ 💾 ᴜsᴇᴅ ⋟ <code>{}</code>
-├⋟ 🆓 ꜰʀᴇᴇ ⋟ <code>{}</code>
-│
-<b>├─[ 🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs ]─⍟</b>
-├⋟ ⏳ ᴜᴘᴛɪᴍᴇ ⋟ {}
-├⋟ ⚡ ʀᴀᴍ ⋟ <code>{}%</code>
-├⋟ 🔋 ᴄᴘᴜ ⋟ <code>{}%</code>
-<b>╰──────────────────────⍟</b>"""
+    STATUS_TXT = """<b>
+💫 𝑯𝒆𝒚 𝑳𝒐𝒗𝒆 💫  
+Yeh raha mera current status 😊
 
+━━━━━━━━━━━━━━━
+📊 𝑫𝒂𝒕𝒂𝒃𝒂𝒔𝒆 𝑫𝒆𝒕𝒂𝒊𝒍𝒔
+━━━━━━━━━━━━━━━
+
+👤 Users : <code>{}</code>  
+👥 Groups : <code>{}</code>  
+💎 Premium : <code>{}</code>  
+📁 Files : <code>{}</code>  
+
+━━━━━━━━━━━━━━━
+🤖 𝑴𝒚 𝑯𝒆𝒂𝒍𝒕𝒉
+━━━━━━━━━━━━━━━
+
+⏳ Uptime : {}  
+⚡ RAM : <code>{}%</code>  
+🔥 CPU : <code>{}%</code>  
+
+💖 Sab smooth chal raha hai jaan 😘
+</b>"""
     EARN_INFO = """<b>💰 <u>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴛʜɪꜱ ʙᴏᴛ</u> 💰
 
 1️⃣ ʏᴏᴜ ᴍᴜꜱᴛ ʜᴀᴠᴇ ᴀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀᴛ ʟᴇᴀꜱᴛ 100 ᴍᴇᴍʙᴇʀꜱ.
