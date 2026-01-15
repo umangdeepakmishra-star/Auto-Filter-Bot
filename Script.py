@@ -1,23 +1,39 @@
 class script(object):
-    START_TXT = """<b>👋 ʜᴇʟʟᴏ {},
+    START_TXT = """<b>
+🔱 JAI SHREE MAHAKAAL 🔱
 
-ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ.
+👋 HELLO {},
 
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ, ꜱᴇʀɪᴇꜱ, ᴀɴɪᴍᴇꜱ, ᴀɴᴅ ᴍᴜᴄʜ ᴍᴏʀᴇ... 🎬
+🎬 I AM AN ADVANCED AUTO FILTER BOT.
 
-ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴏꜰ ᴛʜᴇ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ʏᴏᴜ ᴡᴀɴᴛ. 🔍</b>"""
+📽️ I CAN PROVIDE MOVIES, SERIES, ANIMES AND MUCH MORE...
+
+🔍 JUST SEND ME THE NAME OF THE MOVIE / SERIES YOU WANT.
+</b>"""
 
     FEATURES_TXT = """<b>🛠️ ʜᴇʀᴇ ᴀʀᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ꜰᴇᴀᴛᴜʀᴇꜱ 🛠️</b>"""
 
-    ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├👑 ᴏᴡɴᴇʀ : <a href={}>ᴏᴡɴᴇʀ</a>
-├👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/SilentXBotz>ꜱɪʟᴇɴᴛxʙᴏᴛᴢ </a>
-├📕 ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
-├✏️ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
-├💾 ᴅᴀᴛᴀʙᴀꜱᴇ : <a href=https://cloud.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a>
-├📊 ʙᴜɪʟᴅ ᴠᴇʀꜱɪᴏɴ : V4.3 [ ꜱᴛᴀʙʟᴇ ]
-╰───────────────⍟</b>"""
+    ABOUT_TXT = """<b>
+🎬 C I N E M A H U B  P R O
+━━━━━━━━━━━━━━━━━━━
+
+🤖 BOT TYPE : Auto Filter System
+⚡ PERFORMANCE : High Speed
+🌍 HOSTING : Koyeb Cloud
+
+👑 OWNER : Umang Mishra
+👨‍💻 DEVELOPER : Umang Mishra
+
+🧠 TECHNOLOGY STACK
+• Python 3
+• Pyrogram
+• MongoDB
+• Koyeb Infrastructure
+
+🚀 BUILD : v4.3 | Stable
+━━━━━━━━━━━━━━━━━━━
+✨ Powered by Cinema Hub ✨
+</b>"""
 
     FORCESUB_TEXT = """<b>⚠️ ᴀᴄᴄᴇꜱꜱ ᴅᴇɴɪᴇᴅ ⚠️
 
@@ -243,8 +259,15 @@ class script(object):
 
 ᴍᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>{file_name}\n
-📤 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ: <a href="https://t.me/SilentXBotz">SɪʟᴇɴᴛXʙᴏᴛᴢ</a></b>"""
+    CAPTION = """<b>
+🎬 {file_name}
+
+━━━━━━━━━━━━━━━━━━━
+👑 CINEMA HUB 👑
+━━━━━━━━━━━━━━━━━━━
+⚡ No Ads • No Noise
+🎥 Pure Cinema Experience
+</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🎬 ᴛɪᴛʟᴇ: <a href={url}>{title}</a>
