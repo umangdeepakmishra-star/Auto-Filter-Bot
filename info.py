@@ -17,20 +17,12 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'media_search')
 API_ID = int(environ.get('API_ID', '26261661'))
 API_HASH = environ.get('API_HASH', '8832bbf1b5fe0894027e5284c904f96b')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8372507800:AAERB8f9a6I_k3ADuP2-w3UgKFOvfeZPqEs")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8288544619:AAEtMvXtYhtBrFsiiDmisRPp7ZNWpniK8HU")
 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = environ.get(
-    'PICS',
-    'AgACAgUAAxkBAAFAuitpaLzMODDMWj3KeyqhusiNZ-HluwACYg1rG8JLQVcBOuBcBXW2iwEAAwIAA3kAAzgE '
-    'AgACAgUAAxkBAAFAui1paL09goMUCJYdfpaf6D5-UqPlFgACYQ1rG8JLQVeQxEq0UIKDjgEAAwIAA3kAAzgE '
-    'AgACAgUAAxkBAAFAujFpaL186l0yMMuJboD8f3R_lkYiZQACZA1rG8JLQVdXVXdMeXZRSgEAAwIAA3gAAzgE '
-    'AgACAgUAAxkBAAFAujNpaL2Nv7V4EN6g7LhPdShs5cFSgQACYw1rG8JLQVdWvsGIe05QDQEAAwIAA3kAAzgE '
-    'AgACAgUAAxkBAAFAujdpaL3yUcy9adqe327moqix4N2wEwACvQ1rG0MRSFeO8yqRXr_eHQEAAwIAA3kAAzgE '
-    'AgACAgUAAxkBAAFAujppaL4sue7OJQjLqS-ivKk1xEG3mQACvg1rG0MRSFf4dcbZNRqMiwEAAwIAA3kAAzgE'
-).split()
+PICS = (environ.get('PICS', 'https://i.ibb.co/ch3n9wsf/x.jpg')).split() 
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/62efbcc4e7580b76530ba.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
@@ -79,11 +71,11 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/SilentXBotz")
 SHORTENER_API = environ.get("SHORTENER_API", "e63261955287703c6f20561d3f46b9155c0192e9")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "https://linkpays.in/")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "e63261955287703c6f20561d3f46b9155c0192e9")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "https://linkpays.in/")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "e63261955287703c6f20561d3f46b9155c0192e9")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "https://linkpays.in/")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
